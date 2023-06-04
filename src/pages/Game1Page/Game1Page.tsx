@@ -7,6 +7,7 @@ export default function Game1Page() {
   const [stepGame, setStepGame] = useState(1);
 
   const updateStepGame = (num: number) => {
+    console.log(num);
     setStepGame(num);
   };
 
