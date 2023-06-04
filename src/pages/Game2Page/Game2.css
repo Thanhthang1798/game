@@ -1,0 +1,46 @@
+#game2 {
+    margin-top: 50px;
+    text-align: center;
+    min-height: 500px;
+    background-color: #eee;
+}
+
+.pick-level button {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff; 
+    border-radius: 52.0593px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 10px 0 10px;
+}
+
+.box-game {
+    margin-top: 20px;
+
+}
+
+.box-game button.play {
+    background: #FFE000; 
+    border-radius: 52.0593px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #000;
+}
+.box-game .row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.box-game .card {
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-image: url(../../assets/image/game2/cover.png);
+}
