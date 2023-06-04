@@ -1,0 +1,134 @@
+#game {
+    height: 450px;
+    background: url(./../../assets/image/game1/bg.png);
+    position: relative;
+    margin-top: 50px;
+}#game > div { 
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.button-game {
+    background: #FFE000; 
+    border-radius: 52.0593px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.step1 .button-game{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.step2 .title{
+    height: 100px;
+}
+.step2 .title h1{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F7FC12;
+    text-shadow: 0px 2.94838px 5.89675px #C2040F;
+}
+
+.step2 .game-land{
+    flex: 1;
+}
+
+.step2 .game-land .gift-and-pipe{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.step2 .game-land .gift-and-pipe .item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.step2 .game-land .gift-and-pipe .item .gift{
+    animation: run 4s infinite;
+    cursor: pointer;
+}
+
+.step2 .game-land .gift-and-pipe .item .pipe{
+    z-index: 1;
+}
+
+.step3 .gift-open{
+    display: flex;
+    height: 100%;
+}
+.step3 .gift-open > div{
+    flex: 1;
+}
+.step3 .gift-open > div.left{
+    text-align: center;
+    padding: 0 50px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.step3 .gift-open > div.left .title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F7FC12;
+    width: 300px;
+    text-shadow: 0px 2.94838px 5.89675px #C2040F;
+    margin: auto;
+}
+.step3 .gift-open > div.left .content{
+    margin: 30px 0;
+}
+.step3 .gift-open > div.left .content ul{
+    list-style: disc;
+    text-align: left;
+    padding-left: 95px;
+}
+.step3 .gift-open > div.left .button-game.exit{
+    background: #57C15C;
+    border: 1.25px solid #FFFFFF;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+
+
+
+@keyframes run {
+
+    0% {
+        transform: translateY(90px);
+    }  
+    50% {
+        transform: translateY(-200px) rotate(720deg);
+        
+    }
+    100% {
+        transform: translateY(90px)  rotate(1440deg);
+        
+    }
+    
+}
