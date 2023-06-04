@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import MainLayout from "../../layouts/MainLayout";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 type Props = {
   children?: ReactNode;

@@ -1,4 +1,3 @@
-import React, { ReactNode } from "react";
 import { Props } from "./IGame1";
 
 export default function Step1({ handleClick }: Props) {

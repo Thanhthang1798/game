@@ -1,4 +1,3 @@
-import React from "react";
 import pipe from "../../../../assets/image/game1/pipe.png";
 import gift from "../../../../assets/image/game1/gift.png";
 import { Props } from "./IGame1";
