@@ -84,7 +84,7 @@ export default function GameFlipping({
           <div
             key={index}
             onClick={() => Change(index)}
-            className="card"
+            className={`card ${_.isOpen ? "checked" : ""}`}
             style={{
               backgroundImage: _.isTick || _.isOpen ? `url(${_.bg})` : "",
               backgroundSize: "cover",

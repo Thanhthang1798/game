@@ -48,6 +48,9 @@
     background-size: 100%;
     background: url(../../assets/image/game2/cover.png);
 }
+.box-game .card.checked {
+    outline: 3px solid red;
+}
 .game-body.medium {
     display: grid;
     grid-template-columns: repeat(4,auto);
