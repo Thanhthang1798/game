@@ -90,7 +90,7 @@ export default function GameFlipping({
               backgroundSize: "cover",
             }}
           >
-            {_.number}
+            {/* {_.number} */}
           </div>
         ))}
       </div>
