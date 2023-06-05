@@ -8,4 +8,10 @@ export type PropsLevel = {
 export type PropsPlayGame = {
   isPlay: boolean;
   setPlay: any;
+  level: number;
+};
+export type PropsGame = {
+  isSuccess: boolean;
+  setIsSuccess: any;
+  level: number;
 };

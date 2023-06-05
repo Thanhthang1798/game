@@ -29,8 +29,12 @@ export default function Game2Page(): JSX.Element {
       </Box>
       <PickLevel level={level} pickLevel={updateLevel}></PickLevel>
       <div className="box-game">
-        {level >= 0 && (
-          <PlayGame isPlay={isPlay} setPlay={setIsPlay}></PlayGame>
+        {level > 0 && (
+          <PlayGame
+            isPlay={isPlay}
+            level={level}
+            setPlay={setIsPlay}
+          ></PlayGame>
         )}
       </div>
     </div>

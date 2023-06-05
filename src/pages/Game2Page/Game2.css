@@ -19,9 +19,12 @@
 
 .box-game {
     margin-top: 20px;
-
+    padding-bottom: 100px;
 }
 
+.box-game .placebtn {
+    height: 60px;
+}
 .box-game button.play {
     background: #FFE000; 
     border-radius: 52.0593px;
@@ -41,6 +44,16 @@
 .box-game .card {
     width: 100px;
     height: 100px;
+    cursor: pointer;
     background-size: 100%;
-    background-image: url(../../assets/image/game2/cover.png);
+    background: url(../../assets/image/game2/cover.png);
+}
+.game-body.medium {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 50px;
+    width: 600px;
+    margin: auto;
+    color: #fff;
+    justify-content: center;
 }
